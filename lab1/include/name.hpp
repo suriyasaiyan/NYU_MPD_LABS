@@ -5,4 +5,4 @@
 
 std::string askForName();
 
-#endif // NAME_HPP
+#endif 
