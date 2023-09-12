@@ -6,7 +6,7 @@
 
 1. The paths used by target_sources and target_include_directories are relative, not absolute. What file or  folder are they relative to?
 
-** The paths specified (e.g., "src/hello.cpp" and "include") are relative to the location of the CMakeLists.txt file, which is typically located in the project's root directory.
+* The paths specified (e.g., "src/hello.cpp" and "include") are relative to the location of the CMakeLists.txt file, which is typically located in the project's root directory.
 
 2. What are some differences between cmake and ninja?
 
