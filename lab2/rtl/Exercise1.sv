@@ -19,6 +19,17 @@ module Exercise1 (
                 (op == 2'b11) ? a | b :
                 8'b0; // Default case 
 
-    //assign out = op[1] ? (op[0] ? a | b : a & b) : (op[0] ? a - b : a + b);
+
+    /*assign out = op[1] ? (op[0] ? a | b : a & b) : (op[0] ? a - b : a + b);
+    
+    
+    always_comb
+      case(op)
+        0: out = a + b;
+        1: out = a - b;
+        2: out = a & b;
+        3: out = a | b;
+      endcase*/
+
 
 endmodule
